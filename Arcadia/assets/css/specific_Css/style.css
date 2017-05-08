@@ -1,0 +1,41 @@
+#loginBody {
+	
+	background: url("/Arcadia/assets/imagenes/edadMedia.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-top: 10%;
+		
+		}
+
+#myModal label {
+
+	display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#myModal h3 {
+    font-size: 24px;
+    font-family: inherit;
+    font-weight: 500;	
+}
+
+.titulo_pagina{
+	font-size: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-family: times;
+    color: #aca4a6;
+
+}
+.input-group{
+	width: 100%;
+}
+.input-group-addon{
+	width: 20%;
+}
+

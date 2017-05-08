@@ -1,0 +1,45 @@
+<?php
+require_once "./Arcadia/application/models/host.php";
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Arcadia</title>
+        <link rel="stylesheet" type="text/css" href="/Arcadia/assets/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="/Arcadia/assets/css/specific_Css/style.css">       	
+    </head>
+    <body id="loginBody">
+
+        <form id="login" action="ArcadiaLogin_submit" method="post" accept-charset="utf-8" >
+            <div class="col-md-3 col-md-offset-1">
+                <img src="/Arcadia/assets/imagenes/arcadialogo.png" class="img-responsive" alt="Responsive image">	  	
+
+                <div id="login" class="form-group">
+                    <label for="inputCodigo">Usuario</label>			
+                    <input type="text"  id="inputCodigo"name="inputCodigo" class="form-control">
+                </div>
+                <div id="login" class="form-group">	
+                    <label for="contra">Contraseña</label>			
+                    <input type="password" id="contra" name="contra" class="form-control">
+                </div>	
+                <br>
+
+
+
+                <input type="submit" class="btn btn-success" onclick = "this.form.action = '<?php echo $host ?>index.php/profesor/ingresarProfesor'" value="Entrar" />
+
+
+
+
+                <input type="submit" class="btn btn-info" onclick = "this.form.action = '<?php echo $host ?>index.php/welcome/registroProfesor'" value="Registrarse" />
+
+
+
+        </form>
+    </div>
+
+</body>
+</html>
+
